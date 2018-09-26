@@ -12,7 +12,7 @@ request({
     $('li.collection-card').each(function() {
             var href = $('a.collection-card-image', this).attr('href');
             if (href.lastIndexOf('/') > 0) {
-                console.log($('h3', this).text());
+                console.log($('h1', this).text());
             }
     });
 });
